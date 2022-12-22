@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.pic{
+    background: url(bg3.jpg);
+    background-size: 100% 100%;
+    height: 200px
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.top{
+    display: flex;
+}
+#tp{
+    width: 2cm;
+    height: 2cm;
+    border-radius: 5px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+.li{
+    display: flex;
+    position: relative;
+    left: 50px;
+    margin: 10px;
+}
+a{
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: silver;
+    font-size: 24px;
+    background-color: black;
+    border-radius: 10px;
+}
+a:hover{
+    color: peachpuff;
+}
+#la{
+ width: 400px;
+ margin: auto;
+ font-size: 50px;
+ font-style: italic;
+  background-color: black;
+ color: silver;
+ border-radius: 10px;
+ text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    border: 20px double silver;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 5px;
+    background: url(silk.jpg);
+    background-size: 100%;
+    
+}
+#box1{
+    display: flex;
+    border: 4px solid;
+    margin: 10px;
+    padding: 20px;
+    height: 250px;
+    width: 33.3%;
+    background: url(dress.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 3px rgb(99, 82, 68);
+    align-items: flex-end;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+#box1:hover{
+    transform: scale(1.1);
+}
+#box2{
+    display: flex;
+    border: 4px solid;
+    margin: 10px;
+    padding: 20px;
+    height: 250px;
+    width: 33.3%;
+    background: url(top4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 3px rgb(99, 82, 68);
+    align-items: flex-end;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+#box2:hover{
+    transform: scale(1.1);
+}
+#box3{
+    display: flex;
+    border: 4px solid;
+    margin: 10px;
+    padding: 20px;
+    height: 250px;
+    width: 33.3%;
+    background: url(jump.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 3px rgb(99, 82, 68);
+    align-items: flex-end;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#box3:hover{
+    transform: scale(1.1);
+}
